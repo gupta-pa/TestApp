@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "list-connector-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listConnector/ListConnectorWebPart.js",
+          "manifest": "./src/webparts/listConnector/ListConnectorWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ListConnectorWebPartStrings": "lib/webparts/listConnector/loc/{locale}.js"
+  }
+}
